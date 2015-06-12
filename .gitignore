@@ -1,0 +1,47 @@
+# The purpose of gitignore files is to ensure that certain files not tracked by Git remain untracked.
+# To ignore uncommitted changes in a file that is already tracked, use git update-index --assume-unchanged
+# To stop tracking a file that is currently tracked, use git rm --cached.
+
+# Java + Maven + eclipse ignore patterns
+# ======================================
+**/.classpath
+**/.settings/**
+*.project
+target/
+dist/
+bin/
+#build/
+*.class
+.metadata/
+Servers/
+
+
+# IntelliJ IDEA ignore patterns
+# ======================================
+.idea/
+
+
+# .NET Projects
+# ======================================
+*.user
+*.suo
+*\bin
+*\obj
+.DS_Store
+**\packages
+.worksheet/*
+
+# Java Web Projects
+# ======================================
+**/WebContent/WEB-INF/web.xml
+
+
+# Generated files, renamed original files, back up files,
+# temporary files, etc
+# =========================================================
+MANIFEST.MF
+**/MANIFEST.MF
+*.log
+*.orig
+**/temp/
+*.bak
